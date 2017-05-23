@@ -1,2 +1,12 @@
-# R-Message-Handling
-To Share the Methods for Message Handling for Korean R User
+# R Condition Handling
+
+R 사용 중 겪게 되는 여러 가지 상황에 대응하는 방법을 공유한다. 여기에서 상황이란 다음의 세 가지 경우를 포함한다.
+
+- 오류: 오류는 콘솔에 error라는 메세지로 나타나며, 연산\(operation\)이 이루어지지 않은 경우이다.
+
+- 경고: 경고는 콘솔에 warning\(s\)라는 메세지로 나타나며, 연산은 이루어졌으나 그 결과를 다시 한 번 검토해 보아야 할 내용이 있는 경우이다. 예를 들어, 길이가 동일하지 않은 두 벡터를 병합할 때 리사이클링 규칙\(recycling rule\)이 적용되는 경우가 해당된다.
+
+- 기타: 오류나 경고 없이 아무런 표시 없이 R의 동작이 멈추거나 하는 등의 경우이다.
+
+
+
